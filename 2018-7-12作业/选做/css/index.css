@@ -1,0 +1,58 @@
+.transfer{
+	width:15%;
+	height:300px;
+	position:relative;
+	left:500px;
+	top:150px;
+}
+.top{
+	background-color:#F5F7FA;
+	line-height:2.5;
+	height:40px;
+	width:100%;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+}
+span{
+	position:relative;
+	left:93px;
+}
+
+.search{
+	text-align:center;
+	position:relative;
+	top:10px;
+}
+.search_one{
+	border:1px solid blue;
+	padding-left:30px;
+	width:90%-30px;
+	height:20px;
+	border-radius:15px;
+}
+i{
+	color:gray;
+	opacity:0.6;
+	position:relative;
+	bottom:24px;
+	right:85px;
+}
+.where{
+	margin:10px 0;
+	
+}
+.main{
+	height:73%;
+	width:99%;
+	overflow:auto;
+}
+.where:hover{
+	cursor:pointer;
+}
+label:hover{
+	cursor:pointer;
+	color:#66B1FF;
+}
+.where:hover ~label{
+	color:#66B1FF;
+}

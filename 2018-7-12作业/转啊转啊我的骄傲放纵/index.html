@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="UTF-8">
+<title>YOOOOOOOOOOO</title>
+<style>
+.T{
+	width:200px;
+	height:200px;
+	position:relative;
+	
+}
+.T>div{
+	width:200px;
+	height:200px;
+	backface-visibility:hidden;
+}
+.T>div:nth-child(1){
+	background-color:red;
+	transform:rotatey(180deg);
+	font-size:20px;
+	font-weight:blod;
+	color:white;
+	text-align:center;
+	line-height:3.5;
+	transition:5s;
+	transform-style:preserve-3d;
+}
+.T>div:nth-child(2){
+	background-image:url("image/yeah.jpg");
+	background-size:200px 200px;
+	position:absolute;
+	top:0;
+	left:0;
+	transition:5s;
+	transform-style:preserve-3d;
+}
+.T:hover div:nth-child(2){
+	transform:rotatey(180deg);
+}
+.T:hover div:nth-child(1){
+	transform:rotatey(0deg);
+}
+</style>
+</head>
+<body>
+	<div class="T">
+		<div>是他！是他！就是他！我们的英雄：小哪吒！</div>
+		<div></div>
+	</div>
+</body>
+</html>
